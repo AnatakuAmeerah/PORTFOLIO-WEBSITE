@@ -1,0 +1,337 @@
+@font-face{
+  font-family: AenoikTrial-Bold;
+  src: url(/src/assets/AeonikTRIAL-Bold.otf);
+}
+@font-face{
+  font-family: AenoikTrial-Light;
+  src: url(/src/assets/AeonikTRIAL-Light.otf);
+}
+@font-face{
+  font-family: AenoikTrial-Regular;
+  src: url(/src/assets/AeonikTRIAL-Regular.otf);
+}
+
+body {
+  margin: 0;
+ width: 100%;
+ height: 100%;
+ &::before{
+  content: "";
+  position:absolute;
+  width: 30%;
+  height: 30%;
+  background: linear-gradient(90deg,#9F72D4, rgb(188, 41, 164));
+ border-radius: 50%;
+ left: -10%;
+ top: -10%;
+ filter: blur(100px);
+ animation: gradient 4s infinite;
+ z-index: -1;
+ }
+
+ &::after{
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  background: linear-gradient(90deg, rgb(188, 41, 164),lightblue);
+ border-radius: 50%;
+ right: 17%;
+ bottom: -10%;
+ filter: blur(100px);
+ animation:gradient 4s infinite;
+ z-index: -1;
+ }
+}
+
+@keyframes gradient{
+  70%{
+    transform: scale(1.5) translate(70px);
+  }
+}
+.gen-margin{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.home-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  margin-top: 3rem;
+}
+.pfp{
+  border-radius: 20px;
+}
+
+.name-intro{
+  font-family: AenoikTrial-Bold;
+  font-size: 50px;
+  /* line-height: 4rem; */
+}
+.frontend{
+  font-family:AenoikTrial-Regular;
+  margin-top: -2rem;
+  font-size: 38px;
+  /* line-height: 1rem; */
+}
+.what-i-do{
+  font-family:AenoikTrial-Regular;
+  font-size: 20px;
+  margin-top: -1rem;
+  max-width: 700px;
+}
+.logo-cont{
+  display: flex;
+  gap: 3rem;
+}
+.logo-cont-text{
+  font-family:AenoikTrial-Regular;
+  font-size:18px ;
+}
+.icon{
+  border: 1px solid #0F0529;
+  display: flex;
+  text-decoration: none;
+  font-size: 1.5rem;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.11) , inset 0px 15px 20px rgba(240, 127, 240, 0.2) ;
+}
+.icon-cont{
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* PROJECT CSS */
+.project-head{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 8rem;
+  font-family:AenoikTrial-Regular;
+  letter-spacing: 5px;
+}
+.test{
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.11) ;
+}
+.card-head{
+  display: flex;
+  align-items: center;
+  color: #0F0529;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin-top: -10px;
+}
+.card-p{
+  max-width: 400px;
+  margin-top: -1rem;
+  font-size: 14px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 3rem auto;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+.project-card{
+  border: 1px solid #0F0529;
+  height: 400px;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px #0000001c , inset 0px 15px 20px rgba(240, 127, 240, 0.2) ;
+  font-family:AenoikTrial-Regular;
+  background-color: rgba(240, 248, 255, 0.301);
+  backdrop-filter: blur(10px);
+  z-index: -1;
+}
+.project-icon{
+  display: flex;
+  gap: 0.5rem;
+}
+/* EDUCATION CSS */
+.education{
+  margin-top: 1rem;
+  border: 1px solid #0F0529;
+  box-shadow: 0px 15px 20px #0000001c , inset 0px 15px 20px rgba(240, 127, 240, 0.2) ;
+  padding: 1rem;
+  border-radius: 10px;
+  font-family:AenoikTrial-Regular;
+}
+.education-sub{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.education-sub-h4{
+  font-size: 20px;
+}
+.education-sub-h6{
+  font-size: 16px;
+  margin-top: -0.5rem;
+}
+.education-sub-p{
+  margin-top: -2rem ;
+}
+/* contact css */
+.contact{
+  margin-top: 2rem;
+}
+
+@media screen and (max-width:1024px){
+  .home-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+  .name-intro{
+    font-family: AenoikTrial-Bold;
+    font-size: 50px;
+    line-height: 1rem;
+  }
+  .pfp{
+    display: none;
+    width: 20%;
+    height: 20%;
+  }
+  body {
+    margin: 0;
+   width: 100%;
+   height: 100%;
+   &::before{
+    content: "";
+    position:absolute;
+    width: 30%;
+    height: 30%;
+    background: linear-gradient(90deg,#9F72D4, rgb(188, 41, 164));
+   border-radius: 50%;
+   left: -10%;
+   top: -10%;
+   filter: blur(100px);
+   animation: gradient 4s infinite;
+   z-index: -1;
+   }
+  
+   &::after{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background: linear-gradient(90deg, rgb(188, 41, 164),lightblue);
+   border-radius: 50%;
+   right: 25%;
+   bottom: 10%;
+   filter: blur(100px);
+   animation:gradient 4s infinite;
+   z-index: -1;
+   }
+  }
+  
+}
+@media screen and (max-width:767px){
+  .project-head{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 4rem;
+    font-family:AenoikTrial-Regular;
+    letter-spacing: 5px;
+  }
+  .gen-margin{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .name-intro{
+    font-family: AenoikTrial-Bold;
+    font-size: 25px;
+    line-height: 0.5rem;
+  }
+  .frontend{
+    font-family:AenoikTrial-Regular;
+    font-size: 19px;
+    margin-top: 0;
+    line-height: 0.2rem;
+  }
+  .what-i-do{
+    font-family:AenoikTrial-Regular;
+    font-size: 13px;
+    width: 15rem;
+    margin-top: 0;
+  }
+  .logo-cont-text{
+    font-family:AenoikTrial-Regular;
+    font-size:12px ;
+  }
+  .logo-cont{
+    display: flex;
+    gap: 1rem;
+  }
+  .icon{
+    border: 1px solid #0F0529;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    padding: 0.2rem;
+    border-radius: 2px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.11) , inset 0px 15px 20px rgba(240, 127, 240, 0.2) ;
+  }
+  .icon-cont{
+    display: flex;
+    gap: 0.2rem;
+  }
+
+  .education-sub-h4{
+    font-size: 14px;
+  }
+  .education-sub-h6{
+    font-size: 12px;
+    margin-top: -0.5rem;
+  }
+  .education-sub-p1{
+    font-size: 14px;
+  }
+  .education-sub-p{
+    font-size: 12px;
+  }
+  
+  body {
+  margin: 0;
+ width: 100%;
+ height: 100%;
+ &::before{
+  content: "";
+  position:absolute;
+  width: 30%;
+  height: 30%;
+  background: linear-gradient(90deg,#9F72D4, rgb(188, 41, 164));
+ border-radius: 50%;
+ left: -10%;
+ top: -10%;
+ filter: blur(100px);
+ animation: gradient 4s infinite;
+ z-index: -1;
+ }
+
+ &::after{
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  background: linear-gradient(90deg, rgb(188, 41, 164),lightblue);
+ border-radius: 50%;
+ right: 65%;
+ bottom: 10%;
+ filter: blur(100px);
+ animation:gradient 4s infinite;
+ z-index: -1;
+ }
+}
+}

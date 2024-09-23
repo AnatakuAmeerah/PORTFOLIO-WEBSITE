@@ -1,0 +1,178 @@
+@font-face{
+    font-family: AenoikTrial-Bold;
+    src: url(/src/assets/AeonikTRIAL-Bold.otf);
+  }
+  @font-face{
+    font-family: AenoikTrial-Light;
+    src: url(/src/assets/AeonikTRIAL-Light.otf);
+  }
+  @font-face{
+    font-family: AenoikTrial-Regular;
+    src: url(/src/assets/AeonikTRIAL-Regular.otf);
+  }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    
+}
+.Ameerah{
+    font-family: AenoikTrial-Bold;
+    font-size: 30px;
+}
+ ul{
+   list-style: none;
+   display: inline-flex;
+   gap: 4rem;
+   font-family:  AenoikTrial-Regular ;
+}
+
+.nav-list-box{
+    border: 1px solid #0F0529;
+    display: flex;
+    padding-right: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.11) , inset 0px 15px 20px rgba(240, 127, 240, 0.2) ;
+    background-color: rgba(245, 245, 245, 0.267);
+    backdrop-filter: blur(10px);;
+   
+}
+.nav-list-box img {
+  transition: width 0.5s, height 0.5s; /* add a smooth transition effect */
+  display: none;
+}
+
+.nav-list-box img.enlarged {
+  display: none;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* add a border radius to make the image circular */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* add a box shadow to make the image stand out */
+}
+.butterfly{
+    width: 7%;
+    height: 7%;
+}
+.name-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-btn {
+  background-color: #0F0529;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  display: none;
+  font-size: 1rem;
+  padding: 1rem;
+}
+@media screen and (max-width:1024px) {
+  .nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.nav-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 3.5rem;
+}
+.nav-list-box{
+  position: fixed;
+right: -100vh;
+top: 0;
+right: 0;
+height: 50%;
+width: 30%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+background-color: rgba(255, 255, 255, 0.176);
+backdrop-filter: blur(5px);
+
+transition: 0.7s ;
+  /* padding-top: 2rem; */
+}
+nav .responsive_nav {
+  transform: translateX(100vh); 
+ overflow: hidden;
+}
+.nav-list-box img {
+  justify-content: center;
+  align-items: center;
+  transition: width 0.5s, height 0.5s; /* add a smooth transition effect */
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  margin-left: 2rem;
+  
+}
+
+.nav-list-box img.enlarged {
+  justify-content: center;
+  margin-left: 2rem;
+  align-items: center;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* add a border radius to make the image circular */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* add a box shadow to make the image stand out */
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-family:  AenoikTrial-Regular ;
+  font-size: 22px;
+  text-align: center;
+}
+}
+@media screen and (max-width:767px){
+  .Ameerah{
+    font-family: AenoikTrial-Bold;
+    font-size: 20px;
+}
+.nav-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+  .nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 0.7rem;
+    padding: 0.7rem;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family:  AenoikTrial-Regular ;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 800;
+}
+
+}
