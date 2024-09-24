@@ -31,6 +31,18 @@ nav{
    gap: 4rem;
    font-family:  AenoikTrial-Regular ;
 }
+.nav-list-box ul li a {
+  transition: border-bottom 0.3s ease-in-out;
+  cursor: pointer; /* Add a transition to the border-bottom property */
+}
+
+.nav-list-box ul li a.active {
+  border-bottom: 3px solid #0F0529; /* Add the underline style */
+  transition: border-bottom 0.3s ease-in-out; /* Add a transition to the border-bottom property */
+}
+.nav-list-box ul li a:hover {
+  border-bottom: 3px solid #0F0529;
+}
 
 .nav-list-box{
     border: 1px solid #0F0529;

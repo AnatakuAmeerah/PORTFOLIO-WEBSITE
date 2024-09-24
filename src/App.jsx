@@ -7,6 +7,7 @@ import { GoLink } from "react-icons/go";
 import Contact from './Components/Contact/contact';
 import About from './Components/About me/about';
 
+
 function App() {
 
 
@@ -48,9 +49,9 @@ function App() {
           </div>
         </section>
         {/* ABOUT */}
-        {/* <About/> */}
+        {/* <About /> */}
         {/* MY PROJECTS */}
-        <section>
+        <section id='project'>
           <h2 className='project-head'>MY PROJECTS</h2>
           <div className='grid'>
             <div className='project-card'>
@@ -111,7 +112,7 @@ function App() {
           </div>
         </section>
         {/* EXPERIENCE */}
-        <section>
+        <section id='education'>
           <h1 className='project-head'>EDUCATION</h1>
           <div className='education'>
             <div className='education-sub'>
@@ -146,7 +147,7 @@ function App() {
 
         </section>
         {/* Contact */}
-        <section className='contact'>
+        <section id='contact' className='contact'>
           <h1 className='project-head'>CONTACT ME</h1>
           <Contact />
         </section>
