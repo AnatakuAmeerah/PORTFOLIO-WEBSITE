@@ -5,6 +5,7 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { FaXTwitter } from "react-icons/fa6";
 import { GoLink } from "react-icons/go";
 import Contact from './Components/Contact/contact';
+import About from './Components/About me/about';
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
         <Navbar />
         {/* HERO SECTION */}
         <section className='home-section'>
-          <div>
+          <div className='slide-in-1'>
             <h1 className='name-intro'>Hi, I'm ANATAKU AMEERAH</h1>
             <p className='frontend'>A Frontend Developer.</p>
             <p className='what-i-do'>I build interactive and functional websites helping clients and designers bring their dream websites to life. A website is more than just lines of code, its a means of telling a story. Let me help you tell that story.</p>
@@ -46,6 +47,8 @@ function App() {
             <img className='pfp' width={400} height={500} src="./IMG_4681-Edit.jpg" alt="" />
           </div>
         </section>
+        {/* ABOUT */}
+        <About/>
         {/* MY PROJECTS */}
         <section>
           <h2 className='project-head'>MY PROJECTS</h2>
