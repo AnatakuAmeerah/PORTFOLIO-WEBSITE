@@ -48,7 +48,7 @@ function App() {
           </div>
         </section>
         {/* ABOUT */}
-        <About/>
+        {/* <About/> */}
         {/* MY PROJECTS */}
         <section>
           <h2 className='project-head'>MY PROJECTS</h2>
