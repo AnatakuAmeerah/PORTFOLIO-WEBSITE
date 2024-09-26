@@ -278,19 +278,19 @@ body {
     letter-spacing: 5px;
   }
   .gen-margin{
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 1.33rem;
+    margin-right: 1.33rem;
   }
   .name-intro{
     font-family: AenoikTrial-Bold;
     font-size: 25px;
-    line-height: 0.5rem;
+    /* line-height: 1.5rem; */
   }
   .frontend{
     font-family:AenoikTrial-Regular;
     font-size: 19px;
     margin-top: 0;
-    line-height: 0.2rem;
+    line-height: 0rem;
   }
   .what-i-do{
     font-family:AenoikTrial-Regular;
