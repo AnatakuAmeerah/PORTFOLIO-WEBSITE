@@ -65,7 +65,7 @@ function Navbar() {
                                 onClick={hideNavbar}
                                 activeClass="active"
                                 to="about"
-                                spy="true"
+                                spy = {true}
                                 smooth="true"
                                 offset={-70}
                                 duration={500}
@@ -79,7 +79,7 @@ function Navbar() {
                                 onClick={hideNavbar}
                                 activeClass="active"
                                 to="project"
-                                spy="true"
+                                spy = {true}
                                 smooth="true"
                                 offset={-70}
                                 duration={500}
@@ -94,7 +94,7 @@ function Navbar() {
                                 onClick={hideNavbar}
                                 activeClass="active"
                                 to="education"
-                                spy="true"
+                                spy = {true}
                                 smooth="true"
                                 offset={-70}
                                 duration={500}
@@ -108,7 +108,7 @@ function Navbar() {
                                 onClick={hideNavbar}
                                 activeClass="active"
                                 to="contact"
-                                spy="true"
+                                spy = {true}
                                 smooth="true"
                                 offset={-70}
                                 duration={500}

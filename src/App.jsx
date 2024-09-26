@@ -28,7 +28,7 @@ function App() {
                 <div className='icon-cont'>
                   <div > <a className='icon' href="https://www.linkedin.com/in/ameerah-anataku/" target="_blank" rel="noopener noreferrer"> <FaLinkedin color="white" /> </a> </div>
                   <div ><a className='icon' href="https://x.com/AAnataku85696" target="_blank" rel="noopener noreferrer"> <FaXTwitter color="white" /> </a></div>
-                  <div><a className='icon' href="https://www.linkedin.com/in/ameerah-anataku/" target="_blank" rel="noopener noreferrer"> <FaGithub color="white" /> </a></div>
+                  <div><a className='icon' href="https://github.com/AnatakuAmeerah" target="_blank" rel="noopener noreferrer"> <FaGithub color="white" /> </a></div>
 
                 </div>
               </div>

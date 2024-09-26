@@ -178,7 +178,6 @@ body {
   font-family:AenoikTrial-Regular;
   background-color: rgba(79, 80, 81, 0.301);
   backdrop-filter: blur(10px);
-  z-index: -1;
 }
 .project-icon{
   display: flex;
