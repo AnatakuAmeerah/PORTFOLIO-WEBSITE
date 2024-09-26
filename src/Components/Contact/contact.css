@@ -106,5 +106,7 @@
     }
     .validation{
         margin-left: 2rem;
+        margin-top: 2px;
+        font-size: 13px;
     }
 }

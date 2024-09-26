@@ -60,7 +60,7 @@ function App() {
                 <h6>CAMPUSDASH</h6>
                 <div className='project-icon'>
                   <a href="https://github.com/CampusDash/CampusDash-website" target="_blank" rel="noopener noreferrer"> <FaGithub color='white' /> </a>
-                  <a href="https://campus-dash-website.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color='white'/> </a>
+                  <a href="https://campus-dash-website.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color='white' /> </a>
                 </div>
               </div>
               <p className='card-p'> A Landing page built with React for a startup showcasing their services with well written Vanilla Css code.From school items to sweetsnacks; everything you need on campus can be found here.</p>
@@ -70,9 +70,9 @@ function App() {
               <div className='card-head'>
                 <h6>CHATTER</h6>
                 <div className='project-icon'>
-                <a href="https://github.com/AnatakuAmeerah/CHATTERPROJECT" target="_blank" rel="noopener noreferrer"> <FaGithub color='white'/> </a>
-                <a href="https://chatter-capstome.netlify.app/landing" target="_blank" rel="noopener noreferrer"> <GoLink color='white'/> </a>
-                  </div>
+                  <a href="https://github.com/AnatakuAmeerah/CHATTERPROJECT" target="_blank" rel="noopener noreferrer"> <FaGithub color='white' /> </a>
+                  <a href="https://chatter-capstome.netlify.app/landing" target="_blank" rel="noopener noreferrer"> <GoLink color='white' /> </a>
+                </div>
               </div>
               <p className='card-p'>A Chat app built with React and Typescript that allows you to tell a story through posts with the help of Chakra UI, and track the analytics of each post.</p>
             </div>
@@ -81,9 +81,9 @@ function App() {
               <div className='card-head'>
                 <h6>LABELLUXE</h6>
                 <div className='project-icon'>
-                <a href="https://github.com/AnatakuAmeerah/HNG-INTERNSHIP-TASK-2" target="_blank" rel="noopener noreferrer"> <FaGithub color='white' /> </a>
-                <a href="https://hng-internship-task-2.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color="white" /> </a>
-                   </div>
+                  <a href="https://github.com/AnatakuAmeerah/HNG-INTERNSHIP-TASK-2" target="_blank" rel="noopener noreferrer"> <FaGithub color='white' /> </a>
+                  <a href="https://hng-internship-task-2.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color="white" /> </a>
+                </div>
               </div>
               <p className='card-p'>An E-commerse website built with react showcasing everything and anything fashion from clothes to shoes.</p>
             </div>
@@ -92,8 +92,8 @@ function App() {
               <div className='card-head'>
                 <h6>CALCULATOR</h6>
                 <div className='project-icon'>
-                <a href="https://github.com/AnatakuAmeerah/circle-35-assignment-02" target="_blank" rel="noopener noreferrer"> <FaGithub color="white" /> </a>
-                <a href="https://dmystical-coder.github.io/circle-35-assignment-02/" target="_blank" rel="noopener noreferrer"> <GoLink color="white" /> </a>
+                  <a href="https://github.com/AnatakuAmeerah/circle-35-assignment-02" target="_blank" rel="noopener noreferrer"> <FaGithub color="white" /> </a>
+                  <a href="https://dmystical-coder.github.io/circle-35-assignment-02/" target="_blank" rel="noopener noreferrer"> <GoLink color="white" /> </a>
                 </div>
               </div>
               <p className='card-p' >A Calculator app built with Html Css and Javascript that helps making basic arithmetic calculations simple. Equipped with a light and dark made feature.</p>
@@ -102,9 +102,9 @@ function App() {
               <img className='test' src="./Todo.png" alt="" />
               <div className='card-head'>
                 <h6> TODO APP</h6>
-                <div className='project-icon'> 
-                <a href="https://github.com/AnatakuAmeerah/TODO-VUE-app" target="_blank" rel="noopener noreferrer"> <FaGithub color="white" /> </a>
-                <a href="https://todo-vue-app-gamma.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color="white" /> </a>
+                <div className='project-icon'>
+                  <a href="https://github.com/AnatakuAmeerah/TODO-VUE-app" target="_blank" rel="noopener noreferrer"> <FaGithub color="white" /> </a>
+                  <a href="https://todo-vue-app-gamma.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color="white" /> </a>
                 </div>
               </div>
               <p className='card-p'> Keep track of your goals using this todo App built with Vue.</p>
@@ -116,16 +116,6 @@ function App() {
           <h1 className='project-head'>EDUCATION</h1>
           <div className='education'>
             <div className='education-sub'>
-              <h4 className='education-sub-h4'>ALTSCHOOL AFRICA</h4>
-              <div className='education-sub-p1'>LAGOS NIGERIA</div>
-            </div>
-            <div className='education-sub'>
-              <h6 className='education-sub-h6'>Frontend Engineering Diploma</h6>
-              <div className='education-sub-p'>March 2023 - March 2024</div>
-            </div>
-          </div>
-          <div className='education'>
-            <div className='education-sub'>
               <h4 className='education-sub-h4'>OLABISI ONABANJO UNIVERSITY</h4>
               <div className='education-sub-p1'>OGUN STATE</div>
             </div>
@@ -134,6 +124,18 @@ function App() {
               <p className='education-sub-p'>May 2023 - Till date</p>
             </div>
           </div>
+          <div className='education'>
+            <div className='education-sub'>
+              <h4 className='education-sub-h4'>ALTSCHOOL AFRICA</h4>
+              <div className='education-sub-p1'>LAGOS NIGERIA</div>
+            </div>
+            <div className='education-sub'>
+              <h6 className='education-sub-h6'>Frontend Engineering Diploma</h6>
+              <div className='education-sub-p'>March 2023 - March 2024</div>
+            </div>
+          </div>
+
+
           <div className='education'>
             <div className='education-sub'>
               <h4 className='education-sub-h4'>AIR FORCE SECONDARY SCHOOL</h4>
