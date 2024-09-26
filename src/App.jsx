@@ -26,20 +26,20 @@ function App() {
               <div>
                 <p className='logo-cont-text'>FIND ME IN</p>
                 <div className='icon-cont'>
-                  <div > <a className='icon' href="https://www.linkedin.com/in/ameerah-anataku/" target="_blank" rel="noopener noreferrer"> <FaLinkedin color="#0F0529" /> </a> </div>
-                  <div ><a className='icon' href="https://x.com/AAnataku85696" target="_blank" rel="noopener noreferrer"> <FaXTwitter color="#0F0529" /> </a></div>
-                  <div><a className='icon' href="https://www.linkedin.com/in/ameerah-anataku/" target="_blank" rel="noopener noreferrer"> <FaGithub color="#0F0529" /> </a></div>
+                  <div > <a className='icon' href="https://www.linkedin.com/in/ameerah-anataku/" target="_blank" rel="noopener noreferrer"> <FaLinkedin color="white" /> </a> </div>
+                  <div ><a className='icon' href="https://x.com/AAnataku85696" target="_blank" rel="noopener noreferrer"> <FaXTwitter color="white" /> </a></div>
+                  <div><a className='icon' href="https://www.linkedin.com/in/ameerah-anataku/" target="_blank" rel="noopener noreferrer"> <FaGithub color="white" /> </a></div>
 
                 </div>
               </div>
               <div>
                 <p className='logo-cont-text'>BEST SKILL ON</p>
                 <div className='icon-cont'>
-                  <div className='icon' >< FaReact color="#0F0529" /></div>
-                  <div className='icon'><FaVuejs color="#0F0529" /></div>
-                  <div className='icon'><FaCss3Alt color="#0F0529" /></div>
-                  <div className='icon'>  <FaHtml5 color="#0F0529" /></div>
-                  <div className='icon'> <BiLogoTypescript color="#0F0529" /> </div>
+                  <div className='icon' >< FaReact color="white" /></div>
+                  <div className='icon'><FaVuejs color="white" /></div>
+                  <div className='icon'><FaCss3Alt color="white" /></div>
+                  <div className='icon'>  <FaHtml5 color="white" /></div>
+                  <div className='icon'> <BiLogoTypescript color="white" /> </div>
                 </div>
               </div>
             </div>
@@ -59,8 +59,8 @@ function App() {
               <div className='card-head'>
                 <h6>CAMPUSDASH</h6>
                 <div className='project-icon'>
-                  <a href="https://github.com/CampusDash/CampusDash-website" target="_blank" rel="noopener noreferrer"> <FaGithub color="black" /> </a>
-                  <a href="https://campus-dash-website.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color="black" /> </a>
+                  <a href="https://github.com/CampusDash/CampusDash-website" target="_blank" rel="noopener noreferrer"> <FaGithub color='white' /> </a>
+                  <a href="https://campus-dash-website.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color='white'/> </a>
                 </div>
               </div>
               <p className='card-p'> A Landing page built with React for a startup showcasing their services with well written Vanilla Css code.From school items to sweetsnacks; everything you need on campus can be found here.</p>
@@ -70,8 +70,8 @@ function App() {
               <div className='card-head'>
                 <h6>CHATTER</h6>
                 <div className='project-icon'>
-                <a href="https://github.com/AnatakuAmeerah/CHATTERPROJECT" target="_blank" rel="noopener noreferrer"> <FaGithub color="black" /> </a>
-                <a href="https://chatter-capstome.netlify.app/landing" target="_blank" rel="noopener noreferrer"> <GoLink color="black" /> </a>
+                <a href="https://github.com/AnatakuAmeerah/CHATTERPROJECT" target="_blank" rel="noopener noreferrer"> <FaGithub color='white'/> </a>
+                <a href="https://chatter-capstome.netlify.app/landing" target="_blank" rel="noopener noreferrer"> <GoLink color='white'/> </a>
                   </div>
               </div>
               <p className='card-p'>A Chat app built with React and Typescript that allows you to tell a story through posts with the help of Chakra UI, and track the analytics of each post.</p>
@@ -81,8 +81,8 @@ function App() {
               <div className='card-head'>
                 <h6>LABELLUXE</h6>
                 <div className='project-icon'>
-                <a href="https://github.com/AnatakuAmeerah/HNG-INTERNSHIP-TASK-2" target="_blank" rel="noopener noreferrer"> <FaGithub color="black" /> </a>
-                <a href="https://hng-internship-task-2.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color="black" /> </a>
+                <a href="https://github.com/AnatakuAmeerah/HNG-INTERNSHIP-TASK-2" target="_blank" rel="noopener noreferrer"> <FaGithub color='white' /> </a>
+                <a href="https://hng-internship-task-2.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color="white" /> </a>
                    </div>
               </div>
               <p className='card-p'>An E-commerse website built with react showcasing everything and anything fashion from clothes to shoes.</p>
@@ -92,8 +92,8 @@ function App() {
               <div className='card-head'>
                 <h6>CALCULATOR</h6>
                 <div className='project-icon'>
-                <a href="https://github.com/AnatakuAmeerah/circle-35-assignment-02" target="_blank" rel="noopener noreferrer"> <FaGithub color="black" /> </a>
-                <a href="https://dmystical-coder.github.io/circle-35-assignment-02/" target="_blank" rel="noopener noreferrer"> <GoLink color="black" /> </a>
+                <a href="https://github.com/AnatakuAmeerah/circle-35-assignment-02" target="_blank" rel="noopener noreferrer"> <FaGithub color="white" /> </a>
+                <a href="https://dmystical-coder.github.io/circle-35-assignment-02/" target="_blank" rel="noopener noreferrer"> <GoLink color="white" /> </a>
                 </div>
               </div>
               <p className='card-p' >A Calculator app built with Html Css and Javascript that helps making basic arithmetic calculations simple. Equipped with a light and dark made feature.</p>
@@ -103,8 +103,8 @@ function App() {
               <div className='card-head'>
                 <h6> TODO APP</h6>
                 <div className='project-icon'> 
-                <a href="https://github.com/AnatakuAmeerah/TODO-VUE-app" target="_blank" rel="noopener noreferrer"> <FaGithub color="black" /> </a>
-                <a href="https://todo-vue-app-gamma.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color="black" /> </a>
+                <a href="https://github.com/AnatakuAmeerah/TODO-VUE-app" target="_blank" rel="noopener noreferrer"> <FaGithub color="white" /> </a>
+                <a href="https://todo-vue-app-gamma.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLink color="white" /> </a>
                 </div>
               </div>
               <p className='card-p'> Keep track of your goals using this todo App built with Vue.</p>

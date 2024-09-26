@@ -2,6 +2,7 @@ import "./navBar.css";
 import { useRef, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from 'react-scroll';
+import { GiButterfly } from "react-icons/gi";
 
 function Navbar() {
     const navRef = useRef();
@@ -38,7 +39,8 @@ function Navbar() {
         <>
             <nav>
                 <div className="name-logo">
-                    <img className="butterfly" src="./pngfind.com-black-and-white-butterfly-4620125.png" alt="" />
+                    {/* <img className="butterfly" src="./pngfind.com-black-and-white-butterfly-4620125.png" alt="" /> */}
+                    <GiButterfly fontSize={'2rem'}/>
                     <p className="Ameerah">AMEERAH</p>
                 </div>
                 <div className="nav-list-box" ref={navRef}>
