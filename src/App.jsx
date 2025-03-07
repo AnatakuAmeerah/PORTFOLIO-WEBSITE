@@ -6,6 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { GoLink } from "react-icons/go";
 import Contact from './Components/Contact/contact';
 import About from './Components/About me/about';
+// import EventRegistrationButton from './Components/btn/btn';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <section className='gen-margin'>
         {/* NAVBAR */}
         <Navbar />
+        {/* <EventRegistrationButton/> */}
         {/* HERO SECTION */}
         <section className='home-section'>
           <div className='slide-in-1'>
@@ -26,9 +28,9 @@ function App() {
               <div>
                 <p className='logo-cont-text'>FIND ME IN</p>
                 <div className='icon-cont'>
-                  <div > <a className='icon' href="https://www.linkedin.com/in/ameerah-anataku/" target="_blank" rel="noopener noreferrer"> <FaLinkedin color="white" /> </a> </div>
-                  <div ><a className='icon' href="https://x.com/AAnataku85696" target="_blank" rel="noopener noreferrer"> <FaXTwitter color="white" /> </a></div>
-                  <div><a className='icon' href="https://github.com/AnatakuAmeerah" target="_blank" rel="noopener noreferrer"> <FaGithub color="white" /> </a></div>
+                  <div > <a className='icon' href="https://www.linkedin.com/in/ameerah-anataku/" target="_blank" rel="noopener noreferrer"> <FaLinkedin /> </a> </div>
+                  <div ><a className='icon' href="https://x.com/AAnataku85696" target="_blank" rel="noopener noreferrer"> <FaXTwitter /> </a></div>
+                  <div><a className='icon' href="https://github.com/AnatakuAmeerah" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a></div>
 
                 </div>
               </div>
@@ -54,6 +56,28 @@ function App() {
         <section id='project'>
           <h2 className='project-head'>MY PROJECTS</h2>
           <div className='grid'>
+          <div className='project-card'>
+              <img className='test' src="./tcvc.png" alt="" />
+              <div className='card-head'>
+                <h6>The Creatives Voice Conference</h6>
+                <div className='project-icon'>
+                  <a href="https://github.com/TheCreativesVoiceInstitute/TCVC-Website" target="_blank" rel="noopener noreferrer"> <FaGithub color='white' /> </a>
+                  <a href="https://www.thecreativesvoiceinstitute.com/" target="_blank" rel="noopener noreferrer"> <GoLink color='white' /> </a>
+                </div>
+              </div>
+              <p className='card-p'> A Landing page for a conference built with React alowing attendees to register for the conference.</p>
+            </div>
+            <div className='project-card'>
+              <img className='test' src="./pansoou.png" alt="" />
+              <div className='card-head'>
+                <h6>PANS Annonymous Messaging Service</h6>
+                <div className='project-icon'>
+                  <a href="" target="_blank" rel="noopener noreferrer"> <FaGithub color='white' /> </a>
+                  <a href="https://www.pansoou.com/" target="_blank" rel="noopener noreferrer"> <GoLink color='white' /> </a>
+                </div>
+              </div>
+              <p className='card-p'> A Website that allows pharmacy students make complaints and suggestions annonymously.</p>
+            </div>
             <div className='project-card'>
               <img className='test' src="./campusdash.png" alt="" />
               <div className='card-head'>
@@ -70,7 +94,7 @@ function App() {
               <div className='card-head'>
                 <h6>CHATTER</h6>
                 <div className='project-icon'>
-                  <a href="https://github.com/AnatakuAmeerah/CHATTERPROJECT" target="_blank" rel="noopener noreferrer"> <FaGithub color='white' /> </a>
+                  <a c href="https://github.com/AnatakuAmeerah/CHATTERPROJECT" target="_blank" rel="noopener noreferrer"> <FaGithub color='white' /> </a>
                   <a href="https://chatter-capstome.netlify.app/landing" target="_blank" rel="noopener noreferrer"> <GoLink color='white' /> </a>
                 </div>
               </div>
