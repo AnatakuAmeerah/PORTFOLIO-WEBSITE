@@ -8,7 +8,7 @@ const reviewsData = [
         name: 'Adebisi oluwasayofunmi',
         date: 'May 15, 2023',
         rating: 5,
-        text: "Very good at what she does, she made sure everything was understood before moving to the next.",
+        text: "She has a very god work rate, i was satisfied with the website.",
     },
     {
         id: 2,

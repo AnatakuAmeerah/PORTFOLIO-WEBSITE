@@ -26,6 +26,7 @@
     border-radius: 5px;
     outline: none;
     border: none;
+    color: white;
     
 }
 .input-box-message{
@@ -36,6 +37,7 @@
     border-radius: 5px;
     border: none;
     outline: none;
+    color: white;
 }
 .input-box-btn{
     margin-right: 10rem;

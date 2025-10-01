@@ -251,14 +251,14 @@ body {
 }
 /* EDUCATION CSS */
 .education{
-  margin-top: 1rem;
+  /* margin-top: 1rem;
   border: 1px solid #0F0529;
   box-shadow: 0px 15px 20px #0000001c , inset 0px 15px 20px rgba(240, 127, 240, 0.2) ;
   backdrop-filter: blur(10px);
   background-color: rgba(79, 80, 81, 0.301);
   padding: 1rem;
   border-radius: 10px;
-  font-family:AenoikTrial-Regular;
+  font-family:AenoikTrial-Regular; */
 }
 .education-sub{
   display: flex;

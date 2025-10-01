@@ -106,7 +106,7 @@ function App() {
                 <div className='card-head'>
                   <h6>MOMO YHI</h6>
                   <div className='project-icon'>
-                    <a href="https://github.com/AnatakuAmeerah/circle-35-assignment-02" target="_blank" rel="noopener noreferrer"> <FaGithub color="rgba(240, 127, 240, 0.801)" /> </a>
+                    <a href="https://github.com/AnatakuAmeerah/" target="_blank" rel="noopener noreferrer"> <FaGithub color="rgba(240, 127, 240, 0.801)" /> </a>
                     <a href="https://momoyouthhealthinitiative.com/" target="_blank" rel="noopener noreferrer"> <GoLinkExternal color="rgba(240, 127, 240, 0.801)" /> </a>
                   </div>
                 </div>
@@ -127,7 +127,7 @@ function App() {
                 <div className='card-head'>
                   <h6>PANS Annonymous Messaging Service</h6>
                   <div className='project-icon'>
-                    <a href="" target="_blank" rel="noopener noreferrer"> <FaGithub color='rgba(240, 127, 240, 0.801)' /> </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"> <FaGithub color='rgba(240, 127, 240, 0.801)' /> </a>
                     <a href="https://www.pansoou.com/" target="_blank" rel="noopener noreferrer"> <GoLinkExternal color='rgba(240, 127, 240, 0.801)' /> </a>
                   </div>
                 </div>
@@ -146,7 +146,7 @@ function App() {
                 <div className='card-head'>
                   <h6>LOGEXPERTS</h6>
                   <div className='project-icon'>
-                    <a href="https://github.com/AnatakuAmeerah/TODO-VUE-app" target="_blank" rel="noopener noreferrer"> <FaGithub color="rgba(240, 127, 240, 0.801)" /> </a>
+                    <a href="https://github.com/AnatakuAmeerah/" target="_blank" rel="noopener noreferrer"> <FaGithub color="rgba(240, 127, 240, 0.801)" /> </a>
                     <a href="https://logistics-4b5o.vercel.app/" target="_blank" rel="noopener noreferrer"> <GoLinkExternal color="rgba(240, 127, 240, 0.801)" /> </a>
                   </div>
                 </div>
@@ -165,7 +165,7 @@ function App() {
                 <div className='card-head'>
                   <h6> E-commerce Website</h6>
                   <div className='project-icon'>
-                    <a href="https://github.com/AnatakuAmeerah/TODO-VUE-app" target="_blank" rel="noopener noreferrer"> <FaGithub color="rgba(240, 127, 240, 0.801)" /> </a>
+                    <a href="https://github.com/AnatakuAmeerah/" target="_blank" rel="noopener noreferrer"> <FaGithub color="rgba(240, 127, 240, 0.801)" /> </a>
                     <a href="https://cakeboardandboxng.com/" target="_blank" rel="noopener noreferrer"> <GoLinkExternal color="rgba(240, 127, 240, 0.801)" /> </a>
                   </div>
                 </div>
