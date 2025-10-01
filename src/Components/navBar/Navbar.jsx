@@ -95,7 +95,7 @@ function Navbar() {
                                 duration={500}
                                 className={activeSection === "education" ? "active" : ""}
                             >
-                                Education
+                                Testimonials
                             </Link>
                         </li>
                         <li>

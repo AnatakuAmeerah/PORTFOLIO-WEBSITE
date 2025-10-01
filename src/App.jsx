@@ -15,19 +15,19 @@ import { ReviewsSection } from './Components/Testimonials/ReviewSection';
 
 function App() {
   const [activeSection, setActiveSection] = useState("");
- window.addEventListener("scroll", () => {
-        const scrollPosition = window.scrollY;
-        const sections = document.querySelectorAll("section");
+  window.addEventListener("scroll", () => {
+    const scrollPosition = window.scrollY;
+    const sections = document.querySelectorAll("section");
 
-        sections.forEach((section) => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.offsetHeight;
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.offsetHeight;
 
-            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-                setActiveSection(section.id); // Update the active section state
-            }
-        });
+      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+        setActiveSection(section.id); // Update the active section state
+      }
     });
+  });
 
   return (
     <>
@@ -45,7 +45,7 @@ function App() {
             <div className='btn-collab-view'>
               <button className='btn-collab' >Lets Collaborate</button>
               <button className='btn-view'
-                                >View my work</button>
+              >View my work</button>
             </div>
             <div className='logo-cont'>
               {/* <div>
@@ -96,7 +96,7 @@ function App() {
                   <div className='stack'>React</div>
                   <div className='stack'>Javascript</div>
                   <div className='stack'>CSS</div>
-                     <div className='stack'>Luma</div>
+                  <div className='stack'>Luma</div>
                 </div>
               </div>
             </div>
@@ -159,7 +159,7 @@ function App() {
                 </div>
               </div>
             </div>
-             <div className='project-card'>
+            <div className='project-card'>
               <img className='test' src="./cake.png" alt="" />
               <div className='card-info-cont'>
                 <div className='card-head'>
@@ -256,7 +256,10 @@ function App() {
           </div>
         </section>
         {/* Reviews */}
-        <ReviewsSection />
+        <section id='education' className='education'>
+          <ReviewsSection />
+        </section>
+
         {/* Contact */}
         <section id='contact' className='contact'>
           <h1 className='project-head'>LETS CONNECT</h1>
@@ -264,9 +267,9 @@ function App() {
           <p className='contact-note'>Whether you have a project in mind, want to collaborate, or just want to say hello, i'd love to hear from you. Drop me a mesage and i'll get back to you as soon as possible.</p>
           <Contact />
         </section>
-       
+
       </section>
-        <Footer/>
+      <Footer />
 
     </>
   )
