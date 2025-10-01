@@ -5,33 +5,37 @@
     font-family:  AenoikTrial-Regular ;
 }
 .contact-box{
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.11) , inset 0px 15px 20px rgba(240, 127, 240, 0.2) ;
-    background-color: rgba(79, 80, 81, 0.301);
-    border: 1px solid #0F0529;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.11) , inset 0px 5px 7px rgba(240, 127, 240, 0.2) ;
+    background-color: black;
     margin-bottom: 5rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     border-radius: 10px;
 }
+
 .input-title{
     margin-bottom: 0.2rem;
     margin-left: 10rem;
-    font-size: 18px;
+    font-size: 19px;
 }
 .input-box{
     margin-right: 10rem;
     margin-left: 10rem;
-    padding: 1rem;
-    background-color: rgba(242, 76, 242, 0.2) ;
+    padding: 1.5rem;
+    background-color: #111827 ;
     border-radius: 5px;
+    outline: none;
+    border: none;
     
 }
 .input-box-message{
     margin-right: 10rem;
     margin-left: 10rem;
     padding: 1rem;
-    background-color: rgba(242, 76, 242, 0.2) ;
+    background-color: #111827 ;
     border-radius: 5px;
+    border: none;
+    outline: none;
 }
 .input-box-btn{
     margin-right: 10rem;
@@ -39,10 +43,11 @@
     margin-top: 3rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    background-color: #0F0529;
-    color: white;
+    background-color: rgba(240, 127, 240, 0.801);
+    color: #111827;
     border-radius: 5px;
     font-size: 20px;
+    border: none;
 }
 .validation{
     margin-left: 10rem;
@@ -80,8 +85,8 @@
     .input-box{
         margin-right: 2rem;
         margin-left: 2rem;
-        padding: 0.5rem;
-        background-color: rgba(242, 76, 242, 0.2) ;
+        padding: 1rem;
+        background-color: #111827 ;
         border-radius: 5px;
        
         
@@ -89,20 +94,20 @@
     .input-box-message{
         margin-right: 2rem;
         margin-left: 2rem;
-        padding: 0.5rem;
+        padding: 1rem;
        
     }
     .input-box-btn{
         margin-right: 2rem;
         margin-left: 2rem;
         margin-top: 1rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         font-size: 15px;
     }
     .input-title{
         margin-left: 2rem;
-        font-size: 12px ;
+        font-size: 15px ;
     }
     .validation{
         margin-left: 2rem;

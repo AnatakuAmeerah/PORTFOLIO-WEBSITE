@@ -1,0 +1,209 @@
+.reviews-section {
+  width: 100%;
+  background-color: black;
+  padding: 0.2rem 0 3rem 0;
+  font-family:AenoikTrial-Regular;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgba(240, 127, 240, 0.801);
+  margin-bottom: 1rem;
+}
+.section-divider {
+  width: 6rem;
+  height: 0.25rem;
+  background-color: rgba(240, 127, 240, 0.801);
+  margin: 0 auto 1.5rem;
+}
+.section-description {
+  font-size: 1.125rem;
+  color: #d1d5db;
+  max-width: 42rem;
+  margin: 0 auto;
+   font-family:AenoikTrial-Regular;
+}
+/* Slideshow styles */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.reviews-slideshow {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scroll-behavior: smooth;
+}
+.reviews-slideshow::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+.slideshow-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.slideshow-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(240, 127, 240, 0.801);
+  border: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+.slideshow-nav:hover {
+  opacity: 1;
+  background-color: rgb(99, 22, 86);
+  color: white;
+}
+.slideshow-prev {
+  left: -10px;
+}
+.slideshow-next {
+  right: -10px;
+}
+.slideshow-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  gap: 0.5rem;
+}
+.slideshow-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4b5563;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.slideshow-indicator.active {
+  background-color: rgba(240, 127, 240, 0.801);
+  transform: scale(1.2);
+}
+/* Review card */
+.review-card {
+  background-color: #111827;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid rgba(240, 127, 240, 0.801);
+  transition: transform 0.3s ease;
+  height: calc(100% - 3rem);
+  display: flex;
+  flex-direction: column;
+}
+.review-card:hover {
+  transform: translateY(-4px);
+}
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.avatar-container {
+  margin-right: 1rem;
+}
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(240, 127, 240, 0.801);
+}
+.avatar-placeholder {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgba(240, 127, 240, 0.801);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: 500;
+}
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+}
+.reviewer-name {
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+.review-date {
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin: 0;
+}
+.rating {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+.star {
+  color: rgba(240, 127, 240, 0.801);
+  margin-right: 0.25rem;
+}
+.star.empty {
+  color: #4b5563;
+}
+.review-text {
+  color: #d1d5db;
+  margin: 0;
+}
+.view-all-button {
+  background-color: rgba(240, 127, 240, 0.801);
+  color: black;
+  font-weight: 500;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 3rem;
+}
+.view-all-button:hover {
+  background-color: rgb(99, 22, 86);
+  color: white;
+}
+.button-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+/* Media Queries */
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 2.25rem;
+  }
+  .slideshow-slide {
+    flex: 0 0 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .slideshow-slide {
+    flex: 0 0 33.333%;
+  }
+}

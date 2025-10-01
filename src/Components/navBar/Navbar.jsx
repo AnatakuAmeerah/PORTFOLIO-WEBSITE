@@ -1,8 +1,7 @@
 import "./navBar.css";
-import { useRef, useState } from "react";
+import { useRef, useState} from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from 'react-scroll';
-import { GiButterfly } from "react-icons/gi";
 
 function Navbar() {
     const navRef = useRef();
@@ -14,11 +13,8 @@ function Navbar() {
     const hideNavbar = () => {
         navRef.current.classList.remove("responsive_nav");
     };
-    const [isImageEnlarged, setIsImageEnlarged] = useState(false);
 
-    const handleImageClick = () => {
-        setIsImageEnlarged(!isImageEnlarged);
-    };
+    
 
     // Add an event listener to the window scroll event
     window.addEventListener("scroll", () => {
@@ -39,12 +35,11 @@ function Navbar() {
         <>
             <nav>
                 <div className="name-logo">
-                    {/* <img className="butterfly" src="./pngfind.com-black-and-white-butterfly-4620125.png" alt="" /> */}
-                    <GiButterfly fontSize={'2rem'}/>
+
                     <p className="Ameerah">AMEERAH</p>
                 </div>
                 <div className="nav-list-box" ref={navRef}>
-                    {isImageEnlarged ? (
+                    {/* {isImageEnlarged ? (
                         <img
                             src={'./IMG_4681-Edit.jpg'}
                             alt="Profile Picture"
@@ -57,7 +52,7 @@ function Navbar() {
                             alt="Profile Picture"
                             onClick={handleImageClick}
                         />
-                    )}
+                    )} */}
 
                     <ul>
                         <li>

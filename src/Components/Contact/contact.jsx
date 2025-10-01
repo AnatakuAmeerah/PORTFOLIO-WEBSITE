@@ -143,7 +143,7 @@ const Contact = () => {
                 <input
                     className='input-box'
                     type="text"
-                    placeholder='your name'
+                    placeholder='Your name'
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                 />
@@ -152,13 +152,13 @@ const Contact = () => {
                 <input
                     className='input-box'
                     type="text"
-                    placeholder='your email'
+                    placeholder='Your email'
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                 />
                 {errors.email && <p  className='validation' style={{ color: 'red'}}>{errors.email}</p>}
                 <p className='input-title'> Write me a message</p>
-                <textarea className='input-box-message' cols={30} rows={15} value={message} placeholder='write your message here' onChange={(e) => setMessage(e.target.value)}>
+                <textarea className='input-box-message' cols={30} rows={15} value={message} placeholder='Tell me about your project or just say hello!' onChange={(e) => setMessage(e.target.value)}>
                 </textarea>
                 {errors.message && <p  className='validation' style={{ color: 'red',}}>{errors.message}</p>}
                 <button className='input-box-btn' type='submit'>Send E-mail</button>
