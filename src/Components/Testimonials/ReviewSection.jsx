@@ -1,14 +1,13 @@
 import { useEffect, useState, useRef } from 'react'
 import { Review } from './Review'
 import './review.css'
-import { BiChevronLeft, BiChevronRight } from 'react-icons/bi'
 const reviewsData = [
     {
         id: 1,
         name: 'Adebisi oluwasayofunmi',
         date: 'May 15, 2023',
         rating: 5,
-        text: "She has a very god work rate, i was satisfied with the website.",
+        text: "She has a very good work rate, i loved the website.",
     },
     {
         id: 2,
